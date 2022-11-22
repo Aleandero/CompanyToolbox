@@ -52,7 +52,7 @@
     <div class="align-center container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <h1 class="mb-3 display-1"><strong>Welcome!</strong></h1>
+                <h1 class="mb-3 display-1"><strong>Hello World!</strong></h1>
                 
                 <p class="display-7">Our website is a demonstration of the operation and functioning of the website for each activity</p>
                 <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="page3.php">Contact</a></div>
