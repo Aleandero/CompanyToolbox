@@ -36,7 +36,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="assets/images/company-1-121x121.png" style="height: 3.8rem;">
                     </a>
                 </span>
