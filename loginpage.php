@@ -69,7 +69,7 @@
 
 </section>
 
-<section class="menu cid-s48OLK6784 " >
+<section class="menu cid-s48OLK6784 Full-screen " >
 
     
 
