@@ -52,17 +52,21 @@
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.2; background-color: #87CEEB;" ></div>
-    <div class="align-center container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h1 class="mb-3 display-1"><strong>Hello World!</strong></h1>
-                
-                <p class="display-7">Our website is a demonstration of the operation and functioning of the website for each activity</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="page3.php">Contact</a></div>
-            </div>
-        </div>
-    </div>
+<form action="/loginpage.php" method="post">
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+  </div>
+>
+  </div>
+</form>
+
 </section>
 
 
