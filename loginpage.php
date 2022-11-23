@@ -117,7 +117,7 @@
     if (isset($_POST['submit'])){
         $uname=$_POST['username'];
         $psw=$_POST['password'];
-        $sql=mysql_query("select password from user where username='uname'");
+        $sql=mysql_query("select password from sql7580097 where username='uname'");
         if ($row=mysql_fetch_array($sql)){
 
         if ($psw==$row['password']){
