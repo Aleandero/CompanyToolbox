@@ -27,6 +27,16 @@
         border: 1px solid #ccc;
         box-sizing: border-box;
     }
+    button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        
+}
 </style>
   
   
@@ -65,7 +75,7 @@
 
 <form action="/loginpage.php" method="post">
 
-  <div class="container">
+  <div class="container align-center">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
