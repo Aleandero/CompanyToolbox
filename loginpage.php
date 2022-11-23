@@ -121,12 +121,11 @@
         if ($row=mysql_fetch_array($sql)){
 
         if ($psw==$row['password']){
-            header("location:loged\home.php");
+            header("location:home.php");
             exit();
         }
         else
             echo "Invalid Password";
-
 
     }
     else
