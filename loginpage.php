@@ -69,7 +69,7 @@
 
 </section>
 
-<section class="menu cid-s48OLK6784 Full-screen " >
+<section class="menu cid-s48OLK6784 mbr-Fullscreen " >
 
     
 
@@ -84,7 +84,7 @@
         
     <button type="submit">Login</button>
   </div>
-
+>
   </div>
 </form>
 
