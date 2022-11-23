@@ -73,7 +73,7 @@
 
     
 
-<form action="/loginpage.php" method="post">
+<form action="/loginpage.php" method="post" class="align-center">
 
   <div class="container align-center">
     <label for="uname"><b>Username</b></label>
