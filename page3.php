@@ -42,7 +42,11 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.php"><span class="mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.php"><span class="mobi-mbri mobi-mbri-add-submenu mbr-iconfont mbr-iconfont-btn"></span>Schedule</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.php"><span class="mobi-mbri mobi-mbri-italic mbr-iconfont mbr-iconfont-btn"></span>New Information</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.php"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>Contact</a></li><li class="nav-item"><button type="submit" class="btn btn-primary display-3">login</button></li></ul>
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.php"><span class="mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a></li>
+            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.php"><span class="mobi-mbri mobi-mbri-add-submenu mbr-iconfont mbr-iconfont-btn"></span>Schedule</a></li>
+            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.php"><span class="mobi-mbri mobi-mbri-italic mbr-iconfont mbr-iconfont-btn"></span>New Information</a></li>
+            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.php"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>Contact</a></li>
+            <li class="nav-item"><button type="submit" href="loginpage.php" class="btn btn-primary display-3">login</button></li></ul>
                 
                 
             </div>
