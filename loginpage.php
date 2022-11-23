@@ -83,7 +83,7 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
         
-    <button type="submit">Login</button>
+    <button type="submit" name="submit" id="sub">Login</button>
   </div>
 
   </div>
@@ -108,3 +108,28 @@
   
 </body>
 </html>
+
+<?php
+    mysql_connect("sql7.freesqldatabase.com","sql7580097","RWuYRdbM7h");
+    mysql_selectdb("sql7580097");
+
+
+    if (isset($_POST['submit'])){
+        $uname=$_POST['username'];
+        $psw=$_POST['password'];
+        $sql=mysql_query("select password from user where username='uname'");
+        if ($row=mysql_fetch_array($sql)){
+
+        if ($psw==$row['password']){
+            header("location:loged\home.php");
+            exit();
+        }
+        else
+            echo "Invalid Password";
+
+
+    }
+    else
+        echo "Invalid Username";
+}
+?>
