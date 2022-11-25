@@ -1,34 +1,31 @@
-<!DOCTYPE html>
 <?php
-   include("connetion.php");
-   session_start();
-   
-   if($_SERVER["REQUEST_METHOD"] == "POST") {
-      // username and password sent from form 
-      
-      $myusername = mysqli_real_escape_string($db,$_POST['username']);
-      $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
-      
-      $sql = "SELECT id FROM login WHERE username = '$myusername' and passcode = '$mypassword'";
-      $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-      $active = $row['active'];
-      
-      $count = mysqli_num_rows($result);
-      
-      // If result matched $myusername and $mypassword, table row must be 1 row
-		
-      if($count == 1) {
-         session_register("myusername");
-         $_SESSION['login_user'] = $myusername;
-         
-         header("location: home.php");
-      }else {
-         $error = "Your Login Name or Password is invalid";
-      }
-   }
-?>
+include "config.php";
 
+if(isset($_POST['but_submit'])){
+
+    $uname = mysqli_real_escape_string($con,$_POST['txt_uname']);
+    $password = mysqli_real_escape_string($con,$_POST['txt_pwd']);
+
+    if ($uname != "" && $password != ""){
+
+        $sql_query = "select count(*) as cntUser from users where username='".$uname."' and password='".$password."'";
+        $result = mysqli_query($con,$sql_query);
+        $row = mysqli_fetch_array($result);
+
+        $count = $row['cntUser'];
+
+        if($count > 0){
+            $_SESSION['uname'] = $uname;
+            header('Location: home.php');
+        }else{
+            echo "Invalid username and password";
+        }
+
+    }
+
+}
+?>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -48,25 +45,43 @@
   <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
   
   <style>
-    form {border: 3px solid #f1f1f1;}
 
-    input[type=text], input[type=password] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-    }
-    button {
-        background-color: #04AA6D;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        
+/* Login */
+#div_login{
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 470px;
+    height: 270px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+}
+
+#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#div_login .textbox{
+    width: 96%;
+    padding: 7px;
+}
+
+#div_login input[type=submit]{
+    padding: 7px;
+    width: 100px;
+    background-color: lightseagreen;
+    border: 0px;
+    color: white;
 }
 </style>
   
@@ -101,24 +116,25 @@
 </section>
 <section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
 </section>
-<section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
 
     
-        <form name="f1" onsubmit = "return validation()" method = "POST" class="align-center">  
-            <p>  
-                <label> UserName: </label>  
-                <input type = "text" id ="user" name  = "user" required />  
-            </p>  
-            <p>  
-                <label> Password: </label>  
-                <input type = "password" id ="pass" name  = "pass" required />  
-            </p>  
-            <p>     
-                <button type="submit" name="submit" id="sub">Login</button> 
-            </p>  
-        </form>  
+<div class="container align-center">
+    <form method="post" action="">
+        <div id="div_login">
+            <h1>Login</h1>
+            <div>
+                <input type="text" class="textbox" id="txt_uname" name="txt_uname" placeholder="Username" />
+            </div>
+            <div>
+                <input type="password" class="textbox" id="txt_uname" name="txt_pwd" placeholder="Password"/>
+            </div>
+            <div>
+                <input type="submit" value="Submit" name="but_submit" id="but_submit" />
+            </div>
+        </div>
+    </form>
+</div> 
 
-</section>
 <section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
 </section>
 
@@ -137,4 +153,4 @@
   
 </body>
 </html>
-
+	
