@@ -110,8 +110,12 @@
 </html>
 
 <?php
-    mysql_connect("sql7.freesqldatabase.com","sql7580097","RWuYRdbM7h");
-    mysql_selectdb("sql7580097");
+    $link = mysql_connect('sql7.freesqldatabase.com:3306', 'sql7580097', 'RWuYRdbM7h');
+    if (!$link) {
+        die('Could not connect: ' . mysql_error());
+    }
+    echo 'Connected successfully';
+    mysql_close($link);
 
 
     if (isset($_POST['submit'])){
