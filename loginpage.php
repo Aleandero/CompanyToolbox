@@ -22,7 +22,7 @@
          session_register("myusername");
          $_SESSION['login_user'] = $myusername;
          
-         header("location: welcome.php");
+         header("location: home.php");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
@@ -104,27 +104,19 @@
 <section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
 
     
-<div align = "center">
-         <div style = "width:300px; border: solid 1px #333333; " align = "left">
-            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
-				
-            <div style = "margin:30px">
-               
-               <form action = "" method = "post">
-                  <label>UserName  :</label>
-                  <input type = "text" name = "username" class = "box"/><br /><br />
-                  <label>Password  :</label>
-                  <input type = "password" name = "password" class = "box" /><br/><br />
-                  <input type = "submit" value = " Submit "/><br />
-               </form>
-               
-               <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
-					
-            </div>
-				
-         </div>
-			
-      </div>
+        <form name="f1" onsubmit = "return validation()" method = "POST" class="align-center">  
+            <p>  
+                <label> UserName: </label>  
+                <input type = "text" id ="user" name  = "user" required />  
+            </p>  
+            <p>  
+                <label> Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" required />  
+            </p>  
+            <p>     
+                <button type="submit" name="submit" id="sub">Login</button> 
+            </p>  
+        </form>  
 
 </section>
 <section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
@@ -146,10 +138,3 @@
 </body>
 </html>
 
-<?php
-   session_start();
-   
-   if(session_destroy()) {
-      header("Location: loginpage.php");
-   }
-?>
