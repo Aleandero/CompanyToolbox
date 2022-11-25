@@ -119,21 +119,24 @@
     mysql_close($link);
 
 
-    if (isset($_POST['submit'])){
-        $uname=$_POST['username'];
-        $psw=$_POST['password'];
-        $sql=mysql_query("select password from sql7580097 where username='uname'");
-        if ($row=mysql_fetch_array($sql)){
+    $username = $_POST['uname'];  
+    $password = $_POST['psw'];  
+        
+        $username = stripcslashes($username);  
+        $password = stripcslashes($password);  
+        $username = mysqli_real_escape_string($con, $username);  
+        $password = mysqli_real_escape_string($con, $password);  
+      
+        $sql = "select *from login where username = '$uname' and password = '$psw'";  
+        $result = mysqli_query($con, $sql);  
+        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
+        $count = mysqli_num_rows($result);  
+          
+        if($count == 1){  
+            echo "<h1><center> Login successful </center></h1>";  
+        }  
+        else{  
+            echo "<h1> Login failed. Invalid username or password.</h1>";  
+        }     
 
-        if ($psw==$row['password']){
-            header("location:home.php");
-            exit();
-        }
-        else
-            echo "Invalid Password";
-
-    }
-    else
-        echo "Invalid Username";
-}
 ?>
