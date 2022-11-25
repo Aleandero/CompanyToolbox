@@ -1,3 +1,4 @@
+<html>
 <?php      
     include('connection.php');  
     $username = $_POST['user'];  
@@ -21,3 +22,4 @@
             echo "<h1> Login failed. Invalid username or password.</h1>";  
         }     
 ?>
+</html>
