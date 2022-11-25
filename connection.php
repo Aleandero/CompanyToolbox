@@ -1,11 +1,7 @@
-<html>
 <?php
-    $link = mysql_connect('sql7.freesqldatabase.com:3306', 'sql7580097', 'RWuYRdbM7h');
-    $db_name = "sql7580097";  
-    if (!$link) {
-        die('Could not connect: ' . mysql_error());
-    }
-    echo 'Connected successfully';
-    mysql_close($link);
+   define('DB_SERVER', 'sql7.freesqldatabase.com:3306');
+   define('DB_USERNAME', 'sql7580097');
+   define('DB_PASSWORD', 'RWuYRdbM7h');
+   define('DB_DATABASE', 'sql7580097');
+   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 ?>
-</html>
