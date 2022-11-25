@@ -73,21 +73,19 @@
 <section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
 
     
-
-<form action="/loginpage.php" method="post" class="align-center">
-
-  <div class="container align-center">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit" name="submit" id="sub">Login</button>
-  </div>
-
-  </div>
-</form>
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST" class="align-center">  
+            <p>  
+                <label> UserName: </label>  
+                <input type = "text" id ="user" name  = "user" required />  
+            </p>  
+            <p>  
+                <label> Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" required />  
+            </p>  
+            <p>     
+                <button type="submit" name="submit" id="sub">Login</button> 
+            </p>  
+        </form>  
 
 </section>
 <section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
@@ -109,34 +107,3 @@
 </body>
 </html>
 
-<?php
-    $link = mysql_connect('sql7.freesqldatabase.com:3306', 'sql7580097', 'RWuYRdbM7h');
-    $db_name = "sql7580097";  
-    if (!$link) {
-        die('Could not connect: ' . mysql_error());
-    }
-    echo 'Connected successfully';
-    mysql_close($link);
-
-
-    $username = $_POST['uname'];  
-    $password = $_POST['psw'];  
-        
-        $username = stripcslashes($username);  
-        $password = stripcslashes($password);  
-        $username = mysqli_real_escape_string($con, $username);  
-        $password = mysqli_real_escape_string($con, $password);  
-      
-        $sql = "select *from login where username = '$uname' and password = '$psw'";  
-        $result = mysqli_query($con, $sql);  
-        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
-        $count = mysqli_num_rows($result);  
-          
-        if($count == 1){  
-            echo "<h1><center> Login successful </center></h1>";  
-        }  
-        else{  
-            echo "<h1> Login failed. Invalid username or password.</h1>";  
-        }     
-
-?>
