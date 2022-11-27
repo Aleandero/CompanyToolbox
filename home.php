@@ -31,7 +31,7 @@ include "assets/loged/stylehome.css"
 <body>
 
 <div class="topnav">
-  <a href="Home.php" class="active">Company Toolbox</a>
+  <a href="home.php" class="active">Company Toolbox</a>
   <div id="myLinks">
     <a href="news.php">News</a>
     <a href="schedule.php">Contact</a>
