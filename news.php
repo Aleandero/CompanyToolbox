@@ -42,7 +42,7 @@ include "assets/loged/stylehome.css"
     <i class="fa fa-bars"></i>
   </a>
 </div>
-Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>Home!!!<br>
+
 	<footer>
 		<div class="footer-frame">
 			<p class="Copyright">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
