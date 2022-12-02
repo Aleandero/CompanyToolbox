@@ -15,38 +15,42 @@
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
-  
-  
-  
-  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="assets/loged/stylehome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+
+	<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 </head>
 <body>
   
-  <section class="menu cid-s48OLK6784">
     
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.php">
-                        <img src="assets/images/company-1-121x121.png" style="height: 3.8rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="index.php">Company Toolbox</a></span>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.php"><span class="mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.php"><span class="mobi-mbri mobi-mbri-add-submenu mbr-iconfont mbr-iconfont-btn"></span>Schedule</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.php"><span class="mobi-mbri mobi-mbri-italic mbr-iconfont mbr-iconfont-btn"></span>New Information</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.php"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>Contact</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="loginpage.php"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>Log in</a></li></ul>
-                 
-                
-            </div>
-        </div>
-    </nav>
+   <div class="topnav">
+  <a href="home.php" class="active">Company Toolbox</a>
+  <div id="myLinks">
+    <a href="Index.php">Main Page</a>
+    <a href="page1.php">Schedule</a>
+	<a href="page2.php">News</a>
+	<a href="page3.php">Contact</a>
+    <a href="loginpage.php">Log in</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-</section>
+
 
 <section class="header1 cid-s48MCQYojq mbr-fullscreen " >
 
@@ -154,6 +158,7 @@
             </div>
         </div>
     </div>
+
 
   
 </body>
