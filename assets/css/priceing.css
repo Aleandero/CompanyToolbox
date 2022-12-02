@@ -2,50 +2,42 @@
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
 .columns {
   float: left;
-  width: 15%;
-  padding: 8px;
-  position: relative;
+  width: 25%;
+  padding: 50px;
 }
 
-/* Style the list */
 .price {
   list-style-type: none;
-  border: 1px solid #eee;
+  border: 5px solid #eee;
   margin: 0;
   padding: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* Add shadows on hover */
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  box-shadow: 0 8px 12px 0 #04AA6D
 }
 
-/* Pricing header */
 .price .header {
-  background-color: #111;
+  background-color: #04AA6D;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
 }
 
-/* List items */
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
 }
 
-/* Grey list item */
-.price .grey {
-  background-color: #eee;
+.price .bt {
+  background-color: #ccc;
   font-size: 20px;
 }
 
-/* The "Sign Up" button */
+
 .button {
   background-color: #04AA6D;
   border: none;
@@ -56,10 +48,40 @@
   font-size: 18px;
 }
 
-/* Change the width of the three columns to 100%
-(to stack horizontally on small screens) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .columns {
     width: 100%;
   }
+
 }
+
+.h1priceing {
+	background-color: #04AA6D;
+	height: 100px;
+	justify-content: center;
+	margin: 0px;
+	padding: 1px;
+	position: relative;
+	color: white;
+}
+
+.columns_right {
+  float: right;
+  width: 50%;
+  padding: 50px;
+  height: 200px;
+  position: relative;
+  object-fit:scale-down
+
+
+}
+.columns_left {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: 200px;
+  position: relative;
+  object-fit:scale-down
+
+}
+

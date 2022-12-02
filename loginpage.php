@@ -101,10 +101,10 @@ function myFunction() {
 <body>
   
    <div class="topnav">
-  <a href="home.php" class="active">Company Toolbox</a>
+  <a href="index.php" class="active">Company Toolbox</a>
   <div id="myLinks">
-    <a href="Index.php">Main Page</a>
-    <a href="page1.php">Schedule</a>
+    <a href="index.php">Main Page</a>
+    <a href="page1.php">Priceing</a>
 	<a href="page2.php">News</a>
 	<a href="page3.php">Contact</a>
     <a href="loginpage.php">Log in</a>

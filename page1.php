@@ -9,12 +9,6 @@
   
   
   <title>Shedule</title>
-  <link rel="stylesheet" href="assets/css/icons/mobirise2.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
   <link rel="stylesheet" href="assets/loged/stylehome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/priceing.css">
@@ -29,24 +23,16 @@ function myFunction() {
   }
 }
 </script>  
-<style>
-	table {
-		border: 3px solid;
-		}
-	tr, td {
-		border: 2px solid;
-		}
-</style>
-  
+
   
   
 </head>
 <body>
    <div class="topnav">
-  <a href="home.php" class="active">Company Toolbox</a>
+  <a href="index.php" class="active">Company Toolbox</a>
   <div id="myLinks">
-    <a href="Index.php">Main Page</a>
-    <a href="page1.php">Schedule</a>
+    <a href="index.php">Main Page</a>
+    <a href="page1.php">Priceing</a>
 	<a href="page2.php">News</a>
 	<a href="page3.php">Contact</a>
     <a href="loginpage.php">Log in</a>
@@ -55,56 +41,93 @@ function myFunction() {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
-<section class="content1 cid-s48udlf8KU">
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 5.00 / year</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Support</li>
-    <li>Database</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
-  </ul>
-</div>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Support</li>
-    <li>Database</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
-  </ul>
-</div>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Support</li>
-    <li>Database</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
-  </ul>
-</div>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Support</li>
-    <li>Database</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
-  </ul>
+<div class="h1priceing">
+<h1 align="center" style="text-shadow: 2px 2px gray; text-color: white;">Priceing</h1>
 </div>
 
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="bt">500 $</li>
+    <li>HTML+CSS</li>
+    <li>Support</li>
+    <li>Database</li>
+	<li>-</li>
+	<li>-</li>
+	<li>-</li>
+	<li class="bt"><a href="page3.php" class="button">Contact</a></li>
+
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic +</li>
+    <li class="bt">800 $</li>
+    <li>HTML+CSS</li>
+    <li>Basic PHP</li>
+    <li>Support</li>
+    <li>Database</li>
+	<li>-</li>
+	<li>-</li>
+	<li class="bt"><a href="page3.php" class="button">Contact</a></li>
+
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Advanced</li>
+    <li class="bt">1000 $</li>
+    <li>HTML+CSS</li>
+    <li>PHP</li>
+	<li>Basic Javascripts</li>
+    <li>Support</li>
+    <li>Database</li>
+	<li>-</li>
+	<li class="bt"><a href="page3.php" class="button">Contact</a></li>
+
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="bt">3000 $</li>
+    <li>HTML+CSS</li>
+	<li>PHP</li>
+	<li>Javascripts</li>
+	<li>Application</li>
+    <li>Support 24/7</li>
+    <li>Database</li>
+	<li class="bt"><a href="page3.php" class="button">Contact</a></li>
+
+  </ul>
+</div>
+<div>
+<h1 align="center" style="text-shadow: 2px 2px gray;">Short Descripcion</h1>
+</div>
+<section>
+<div class="columns_left" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<h1 align="center">Basic</h1>
+<p style="text-align: center; font-size: 16px;">The Basic package is the cheapest choice. To create a Basic page, we use html combined with CSS, which makes our pages look good and their appearance slowly gets old.</p>
+</div>
+<div class="columns_right" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<h1 align="center">Basic +</h1>
+<p style="text-align: center; font-size: 16px;padding: 5px">The Basic + package includes everything in the Basic package with the addition of basic php. This allows you to extend the website with new functions, such as logging in through a database connection, etc.</p>
+</div>
 </section>
+<section>
+<div class="columns_left" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<h1 align="center">Advenced</h1>
+<p style="text-align: center; font-size: 16px;padding: 5px">The Advanced package includes everything Basic + and the addition of extended functions in php and the ability to prepare basic scripts in Javascripts. This allows you to create a page that will be interactive. This means, for example, that employees will be able to write messages that will then be displayed on the website.</p>
+</div>
+<div class="columns_right" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<h1 align="center">Premium</h1>
+<p style="text-align: center; font-size: 16px;padding: 5px">PThe Premium package is a package containing literally everything HTML+CSS, PHP, Javascripts and even website applications. By purchasing this package, the buyer will not feel disappointed. We will select our best employees to create a website in this package, and our best programmers will take care of the application.</p>
+</div>
+</section>
+
+
 	<footer>
-		<div class="footer-frame">
+		<div class="footer-frame" >
 			<p class="Copyright">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
 		</div>
 	</footer>
