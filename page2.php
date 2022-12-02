@@ -15,38 +15,37 @@
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
-  
+  <link rel="stylesheet" href="assets/loged/stylehome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
   
   
   
 </head>
 <body>
   
-  <section class="menu cid-s48OLK6784">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.php">
-                        <img src="assets/images/company-1-121x121.png" style="height: 3.8rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="index.php">Company Toolbox</a></span>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.php"><span class="mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.php"><span class="mobi-mbri mobi-mbri-add-submenu mbr-iconfont mbr-iconfont-btn"></span>Schedule</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.php"><span class="mobi-mbri mobi-mbri-italic mbr-iconfont mbr-iconfont-btn"></span>New Information</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.php"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>Contact</a></li>
-            <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="loginpage.php"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>Log in</a></li></ul>
-                
-                
-            </div>
-        </div>
-    </nav>
-
-</section>
+<div class="topnav">
+  <a href="home.php" class="active">Company Toolbox</a>
+  <div id="myLinks">
+    <a href="Index.php">Main Page</a>
+    <a href="page1.php">Schedule</a>
+	<a href="page2.php">News</a>
+	<a href="page3.php">Contact</a>
+    <a href="loginpage.php">Log in</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <section class="timeline1 cid-tn5bhT0QsT">
     
@@ -63,36 +62,36 @@
             <div class="timeline-date col-md-6">
                 <div class="timeline-date-wrapper">
                     <p class="display-5">
-                        <strong>23 April 2023</strong>
+                        <strong>10 April 2023</strong>
                     </p>
                 </div>
             </div>
             <span class="iconBackground"></span>
             <div class="col-md-6">
                 <div class="timeline-text-wrapper">
-                    <h4 class="mb-4 display-5"><strong>New Hall Designing Ended</strong></h4>
+                    <h4 class="mb-4 display-5"><strong>Thanks to the team </strong></h4>
                     
                     <p class="display-7">
-                        The design of the new hall has been completed and we have commissioned a construction company to handle the construction. Expect information about possible transfers or the opening of recruitment at the beginning of next year.
-                    </p>
+                        As a director, thank you very much for a job well done. The number of orders we receive is slowly growing. We haven't gained any new employees yet, but I hope that our company will gain new employees in the near future
+					</p>
                 </div>
             </div>
         </div>
         <div class="row timeline-element mb-2">
             <div class="col-md-6">
                 <div class="timeline-text-wrapper">
-                    <h4 class="mb-4 display-5"><strong>Implementation of a new car in production</strong></h4>
+                    <h4 class="mb-4 display-5"><strong>Satisfied customer and new assignment</strong></h4>
                     
                     <p class="display-7">
-                        From the beginning of next week, we are changing production from Audi A4 to Audi A8. I sent the most important information to all employees working on assembly works.
-                    </p>
+                        We received information from the client that he was satisfied with the product he received and allowed us to have a copy of the website prepared for him as a presentation of our abilities. At the same time, I would like to remind you that we are starting work on the next project. Generally, this will be a page for a newly opened dietitian who wants information encouraging to follow his diet on the main page. You will receive the rest of the details by e-mail.
+					</p>
                 </div>
             </div>
             <span class="iconBackground"></span>
             <div class="timeline-date  col-md-6">
                 <div class="timeline-date-wrapper">
                     <p class="display-5">
-                        <strong>20 April 2023</strong>
+                        <strong>9 April 2023</strong>
                     </p>
                 </div>
             </div>
@@ -101,7 +100,7 @@
             <div class="timeline-date col-md-6">
                 <div class="timeline-date-wrapper">
                     <p class="display-5">
-                        <strong>15 April 2023</strong>
+                        <strong>8 April 2023</strong>
                     </p>
                 </div>
             </div>
@@ -109,25 +108,29 @@
             <div class="col-md-6">
                 <div class="timeline-text-wrapper">
                     <h4 class="mb-4 display-5">
-                        <strong>New Hall Designing</strong></h4>
+                        <strong>Completion of work on the first project</strong></h4>
                     
                     <p class="display-7">
-                        Work has begun on designing a new Assembly Hall, which is to be built in 2024.
+                        We managed to finish work on the website for Koko Company. Congratulations to everyone who contributed to the project to a greater or lesser extent. The next day we start work on the next page.
                     </p>
                 </div>
             </div>
         </div>
 		<div class="row timeline-element mb-2">
             <div class="col-md-6">
-                <div class="timeline-text-wrapper">?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-                    </p>
+                <div class="timeline-text-wrapper">
+                    <h4 class="mb-4 display-5"><strong>First assignment</strong></h4>
+                    
+                    <p class="display-7">
+                        We received the first order from Koko Company to prepare a website for employees. The requirements they set for us were that the website should contain a welcome message after logging in and duties along with privileges. Then the navbar would allow you to get to subpages such as News,Blog,Schedule and Contact,
+					</p>
                 </div>
             </div>
             <span class="iconBackground"></span>
-            <div class="timeline-date col-md-6">
+            <div class="timeline-date  col-md-6">
                 <div class="timeline-date-wrapper">
                     <p class="display-5">
-                        <strong>?? April 2023</strong>
+                        <strong>5 April 2023</strong>
                     </p>
                 </div>
             </div>
@@ -136,7 +139,7 @@
             <div class="timeline-date col-md-6">
                 <div class="timeline-date-wrapper">
                     <p class="display-5">
-                        <strong>?? April 2023</strong>
+                        <strong>2 April 2023</strong>
                     </p>
                 </div>
             </div>
@@ -144,11 +147,11 @@
             <div class="col-md-6">
                 <div class="timeline-text-wrapper">
                     <h4 class="mb-4 display-5">
-                        <strong>??</strong></h4>
+                        <strong>The beginning of the company, First Employees and Recruitment</strong></h4>
                     
                     <p class="display-7">
-                        ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-                    </p>
+                        Our company responsible for creating websites for small businesses starts providing services today. The starting composition of the team is 3 people. At the same time, we are also opening recruitments. We accept applications in an electronic version sent by e-mail or in paper form by reporting to our office.
+					</p>
                 </div>
             </div>
         </div>
