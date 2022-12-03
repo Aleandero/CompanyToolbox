@@ -35,8 +35,8 @@ include "assets/loged/stylehome.css"
   <div id="myLinks">
     <a href="news.php">News</a>
     <a href="schedule.php">Schedule</a>
-	<a href="blog.php">Blog</a>
 	<a href="contact.php">Contact</a>
+	<a href="Raport.php">Raport</a>
     <a href="logout.php">Log out</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -55,12 +55,8 @@ include "assets/loged/stylehome.css"
 		<textarea
 			id="Notice"
 			name="Notice"
-			rows="6"
 			placeholder= "Write your message">
 			</textarea>
-			
-			<input name="_redirect" type="hidden" id="name" value="http://localhost/Companytoolbox/contact.php?mail=Jakub">
-			
 		<input value="Send" type="submit">
 		</button>
 	</form>

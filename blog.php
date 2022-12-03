@@ -21,7 +21,7 @@ if(isset($_POST['but_logout'])){
   <link rel="shortcut icon" href="assets/images/company-1-121x121.png" type="image/x-icon">
   <meta name="description" content="Company">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Home</title>
+  <title>Blog</title>
  <style> 
  <?php
 include "assets/loged/stylehome.css"
@@ -31,10 +31,10 @@ include "assets/loged/stylehome.css"
 <body>
 
 <div class="topnav">
-  <a href="Home.php" class="active">Company Toolbox</a>
+  <a href="home.php" class="active">Koko Company</a>
   <div id="myLinks">
     <a href="news.php">News</a>
-    <a href="schedule.php">Contact</a>
+    <a href="schedule.php">Schedule</a>
 	<a href="blog.php">Blog</a>
 	<a href="contact.php">Contact</a>
     <a href="logout.php">Log out</a>

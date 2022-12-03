@@ -39,7 +39,7 @@ function myFunction() {
    <div class="topnav">
   <a href="index.php" class="active">Company Toolbox</a>
   <div id="myLinks">
-    <a href="index.php">Main Page</a>
+    <a href="Index.php">Main Page</a>
     <a href="page1.php">Priceing</a>
 	<a href="page2.php">News</a>
 	<a href="page3.php">Contact</a>
@@ -52,11 +52,11 @@ function myFunction() {
 
 
 
-<section class="header1 cid-s48MCQYojq mbr-fullscreen " >
+<section class="mbr-fullscreen " style="background-color:#EDF1FF" >
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.2; background-color: #87CEEB;" ></div>
+    <div class="mbr-overlay" ></div>
     <div class="align-center container">
         <div class="row justify-content-center">
             <div class="col-lg-8">

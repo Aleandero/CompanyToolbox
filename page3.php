@@ -35,7 +35,7 @@ function myFunction() {
 <div class="topnav">
   <a href="index.php" class="active">Company Toolbox</a>
   <div id="myLinks">
-    <a href="Index.php">Main Page</a>
+    <a href="index.php">Main Page</a>
     <a href="page1.php">Priceing</a>
 	<a href="page2.php">News</a>
 	<a href="page3.php">Contact</a>
@@ -50,7 +50,7 @@ function myFunction() {
     
     
     <div class="container">
-        <h3 class="align-center display-2"><strong>If you like to join to us write</strong></h3>
+        <h3 class="align-center display-2"><strong>Please contact us if you want/think about buying a website</strong></h3>
             
  
         <div class="row justify-content-center mt-4">
@@ -75,7 +75,7 @@ function myFunction() {
     </div>
 </section>
 
-<section class="contacts2 cid-tn4VmSFzFy ">
+<section class="contacts2 cid-tn4VmSFzFy " style="background-color: #DFCFBE">
     
     <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(206, 191, 175);">
     </div>
@@ -113,16 +113,22 @@ function myFunction() {
                     </div>
                 </div>
             </div>
-            <div class="card col-12 col-md-6">
+            <div class="col-md-6">
                 <div class="card-wrapper">
                     <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-globe mobi-mbri"></span>
+                        <span class="mbr-iconfont mobi-mbri-bulleted-list mobi-mbri"></span>
                     </div>
                     <div class="text">
                         <h6 class="display-5">
-                            <strong>Address</strong>
+                            <strong>Adress</strong>
                         </h6>
-                        <p class="display-7">Gliwice, Akademicka 16</p>
+                        <p class="display-7">
+                            Gliwice
+                        </p>
+						<p class="display-7">
+                           Ul.Okrzei 20
+                        </p>
+
                     </div>
                 </div>
             </div>
