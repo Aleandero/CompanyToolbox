@@ -57,7 +57,7 @@ body {
 }
 
 .active {
-  background-color: #4080ff;
+  background-image: linear-gradient(to right top, #0046b3, #0076d9, #00a2ee, #00cdf8, #44f5fd);
   color: white;
 }
 
