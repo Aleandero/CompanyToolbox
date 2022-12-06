@@ -43,7 +43,7 @@ if(isset($_POST['but_submit'])){
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
-  <link rel="stylesheet" href="assets/loged/stylehome.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script>
 function myFunction() {

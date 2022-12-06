@@ -11,6 +11,12 @@ if(isset($_POST['but_logout'])){
     session_destroy();
     header('Location: index.php');
 }
+
+if($_SESSION['uname']=="kamil"){;}
+else {
+	session_destroy();
+header('Location: home.php');}
+
 ?>
 <!DOCTYPE html>
 <html  >
@@ -79,6 +85,7 @@ include "assets/loged/schedule.css"
 	<br>
 	<tr >
       <th class="odd">08:00</th>
+	  <td colspan="1" rowspan="10" ></td>
       <td colspan="1" rowspan="8" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="10" ></td>
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
@@ -90,8 +97,8 @@ include "assets/loged/schedule.css"
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="10" ></td>
 	  <td colspan="1" rowspan="28" class="plan free" >Free</td>
-	  <td colspan="1" rowspan="10" ></td>
 	  <td colspan="2" rowspan="28" class="plan free" >Free</td>
+	  
     </tr>
     <tr >
       <th class="even">08:30</th>
@@ -129,7 +136,6 @@ include "assets/loged/schedule.css"
     </tr>
     <tr>
       <th class="odd">13:00</th>
-	  <td colspan="1" rowspan="6" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="6" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
@@ -139,6 +145,7 @@ include "assets/loged/schedule.css"
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="6" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
+	  <td colspan="1" rowspan="6" class="plan work" >Work</td>
 	  <td colspan="1" rowspan="8" class="plan work" >Work</td>
     </tr>
     <tr>

@@ -37,7 +37,7 @@ include "assets/loged/Raport.css"
   <a href="home.php" class="active">Koko Company</a>
   <div id="myLinks">
     <a href="news.php">News</a>
-    <a href="schedule.php">Schedule</a>
+    <a href=<?php if($_SESSION['uname']=="admin"){ echo 'schedule.php';} else { echo 'schedule1.php';}?>>Schedule</a>
 	<a href="contact.php">Contact</a>
 	<a href="Raport.php">Report</a>
     <a href="logout.php">Log out</a>

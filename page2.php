@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
-  <link rel="stylesheet" href="assets/loged/stylehome.css">
+   <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script>
 function myFunction() {
@@ -122,7 +122,7 @@ function myFunction() {
                     <h4 class="mb-4 display-5"><strong>First assignment</strong></h4>
                     
                     <p class="display-7">
-                        We received the first order from Koko Company to prepare a website for employees. The requirements they set for us were that the website should contain a welcome message after logging in and duties along with privileges. Then the navbar would allow you to get to subpages such as News,Blog,Schedule and Contact,
+                        We received the first order from Koko Company to prepare a website for employees. The requirements they set for us were that the website should contain a welcome message after logging in and duties along with privileges. Then the navbar would allow you to get to subpages such as News,Schedule and etc.You will receive the rest of the details by e-mail.
 					</p>
                 </div>
             </div>
