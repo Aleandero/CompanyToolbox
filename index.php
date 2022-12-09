@@ -9,12 +9,11 @@
   
   
   <title>Home</title>
-  <link rel="stylesheet" href="assets/css/icons/mobirise2.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <link rel="stylesheet" href="assets/css/navbar.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,7 +38,7 @@ function myFunction() {
    <div class="topnav">
   <a href="index.php" class="active">Company Toolbox</a>
   <div id="myLinks">
-    <a href="Index.php">Main Page</a>
+    <a href="index.php">Main Page</a>
     <a href="page1.php">Priceing</a>
 	<a href="page2.php">News</a>
 	<a href="page3.php">Contact</a>
@@ -52,24 +51,20 @@ function myFunction() {
 
 
 
-<section class="mbr-fullscreen " style="background-image: radial-gradient(circle, #a6acb7, #9daac8, #99a6d9, #9aa1e8, #a19af4);" >
+<section class="fullscreen" style="background-image: radial-gradient(circle, #a6acb7, #9daac8, #99a6d9, #9aa1e8, #a19af4); height:50rem;" >
 
-    
-
-    <div class="mbr-overlay" ></div>
     <div class="align-center container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="padding-top:15rem;">
             <div class="col-lg-8">
-                <h1 class="mb-3 display-1"><strong>Hello World!</strong></h1>
-                
+                <h1 class=" display-1"><strong>Hello World!</strong></h1>
                 <p class="display-7">Our website is a demonstration of the operation and functioning of the website for each activity</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="page3.php">Contact</a></div>
+                <div class="bt"><a href="page3.php" class="button">Contact</a></div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="content1 cid-s48udlf8KU">
+<section style="padding: 1rem;">
     
     <div class="container">
         <div class="row justify-content-center">
@@ -82,7 +77,7 @@ function myFunction() {
     </div>
 </section>
 
-<section class="image3 cid-s48upRUlSD" >
+<section style="padding: 1rem;" >
     
 
     
@@ -94,72 +89,49 @@ function myFunction() {
     </div>
 </section>
 
-<section class="features1 cid-tn52InQSfs">
-    
-
-    
-    
+<section>
+   
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Features</strong>
+                <h3 class="align-center display-2" style="padding: 4rem;">
+                    <strong >Features</strong>
                 </h3>
-                
-            </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="card-wrapper">
+        <div class="row" style="padding: 1rem;">
+            <div class="col-lg-4">
                     <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-browse mobi-mbri"></span>
-                        </div>
+						<i class="material-icons" style="transform: scale(2);">computer</i>
                         <h5 class="display-7"><strong>Show up</strong></h5>
                         <p class="display-7">Present your company at its best to your potential customers and future employees</p>
                     </div>
-                </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card-wrapper">
+            <div class="col-md-6 col-lg-4">
+
                     <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-edit-2 mobi-mbri"></span>
-                        </div>
+						<i class="material-icons" style="transform: scale(2);">edit</i>
                         <h5 class="display-7"><strong>Approx</strong></h5>
                         <p class="display-7">Describe exactly what you do and what you want to achieve. Show your idea to the world</p>
                     </div>
-                </div>
+
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card-wrapper">
+            <div class="col-md-6 col-lg-4">
                     <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
-                        </div>
+						<i class="material-icons" style="transform: scale(2);">groups</i>
                         <h5 class="display-7"><strong>Lead</strong></h5>
                         <p class="display-7">Have one platform for communicating with your employees. Share the most important and necessary information right away</p>
                     </div>
-                </div>
             </div>
-            
         </div>
     </div>
+	<br><br><br>
 </section>
 
-<section class="footer7 cid-tn4Fk1NEQy">
-    
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="display-7">
-                    © Copyright 2022 Grupa 2 - All Rights Reserved
-                </p>
-            </div>
-        </div>
-    </div>
+	<footer >
+		<div class="footer-frame" >
+			<p class="Copyright" style="padding: 1rem">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
+		</div>
+	</footer>
+	
 
-
-  
 </body>
 </html>

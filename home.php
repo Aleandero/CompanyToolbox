@@ -53,7 +53,7 @@ include "assets/loged/stylehome.css"
 	echo "<br>";echo "<br>";echo "<br>";echo "<br>";echo "<br>";echo "<br>";
 	echo "Welcome $Name";
 	?></h1>
-	<h3 class="h3welcome"><?php if($Name=="admin") echo "Head of the human resources management department"?></h3>
+	<h3 class="h3welcome"><?php if($Name=="admin") echo "Head of the human resources management department"?><?php if($Name=="kamil") echo "Marketing Manager"?></h3>
 	<?php echo "<br>";echo "<br>";echo "<br>";echo "<br>";echo "<br>";echo "<br>"; ?>
 </div>
 
@@ -63,43 +63,31 @@ include "assets/loged/stylehome.css"
 
 
 	<div class="section">
-	<h1><?php if($Name=="admin") echo "Meetings" ?></h1>
-		<p><?php if($Name=="admin") echo "You are the head of the department, so you are responsible for your team. There will be meetings where you will report on the progress of work." ?></p>
-		<p><?php if($Name=="admin") echo "Your goal is to maintain a good relationship with your staff to encourage further work and to keep reports." ?></p>
+	<h1><?php if($Name=="admin") echo "Meetings" ?><?php if($Name=="kamil") echo "Organizing a sales program" ?></h1>
+		<p><?php if($Name=="admin") echo "You are the head of the department, so you are responsible for your team. There will be meetings where you will report on the progress of work." ?>
+		<?php if($Name=="kamil") echo "The head of the marketing and sales department co-creates and develops the product sales strategy. He participates in the creation of pricing programs and strategies and manages sales. To this end, it plans and organizes sales programs based on sales results and market assessment." ?></p>
+		<p><?php if($Name=="admin") echo "Your goal is to maintain a good relationship with your staff to encourage further work and to keep reports." ?>
+		<?php if($Name=="kamil") echo "In addition, he establishes and maintains contacts with strategic clients, setting the terms of cooperation together with them, and then watches over their proper course." ?></p>
 	</div>
 	<div class="section">
-	<h1><?php if($Name=="admin") echo "Persuasion to cooperate" ?></h1>
+	<h1><?php if($Name=="admin") echo "Persuasion to cooperate" ?><?php if($Name=="kamil") echo "Launching new products" ?></h1>
 		<p><?php if($Name=="admin") echo "When it comes to the moment of payment, the customer seems to come down to earth and starts to wonder if what you offer is worth his money. In fact, he wonders if you can get it cheaper somewhere! On this basis, many sellers came to the conclusion that only the low price matters. But that's not true." ?></p>
-		<p><?php if($Name=="admin") echo "Your goal is to show the client why it is worth investing in cooperation with you and not someone else. You don't have to talk badly about the competition at all. Just compare what you get with what others give." ?></p>
+		<p><?php if($Name=="admin") echo "Your goal is to show the client why it is worth investing in cooperation with you and not someone else. You don't have to talk badly about the competition at all. Just compare what you get with what others give." ?>
+		<?php if($Name=="kamil") echo "His tasks also include work related to introducing new products to the market and researching the level of product acceptance by consumers. In order to increase product sales, it is important to oversee a pre-planned and organized sales promotion campaign." ?></p>
 	</div>
 	<img class="imagr" src="assets/images/bs3.png">
 
 	<div class="section">
-	<h1><?php if($Name=="admin") echo "Financing many things" ?></h1>
-		<p><?php if($Name=="admin") echo "As our employee, you will receive gym passes and even financing extramural studies or a swimming pool. Additionally, we finance private medical care." ?></p>
-		<p><?php if($Name=="admin") echo "A healthy mind resides in a healthy body, which is why, as managers, we encourage you to take advantage of all opportunities to become better." ?></p>
+	<h1><?php if(($Name=="admin")or($Name=="kamil")) echo "Financing many things" ?></h1>
+		<p><?php if(($Name=="admin")or($Name=="kamil")) echo "As our employee, you will receive gym passes and even financing extramural studies or a swimming pool. Additionally, we finance private medical care." ?></p>
+		<p><?php if(($Name=="admin")or($Name=="kamil")) echo "A healthy mind resides in a healthy body, which is why, as managers, we encourage you to take advantage of all opportunities to become better." ?></p>
 	</div>
 	<div class="section">
-	<h1><?php if($Name=="admin") echo "Ability to work remotely" ?></h1>
-		<p><?php if($Name=="admin") echo "As our employee, you have the option to work remotely. However, this is a privilege that we ask you to use only when you are unable to appear at the company." ?> </p>
-		<p><?php if($Name=="admin") echo "As a manager of the human resources department, it is important to communicate with colleagues to ensure appropriate working conditions." ?></p>
+	<h1><?php if(($Name=="admin")or($Name=="kamil")) echo "Ability to work remotely" ?></h1>
+		<p><?php if(($Name=="admin")or($Name=="kamil")) echo "As our employee, you have the option to work remotely. However, this is a privilege that we ask you to use only when you are unable to appear at the company." ?> </p>
+		<p><?php if(($Name=="admin")or($Name=="kamil")) echo "As a manager of the human resources department, it is important to communicate with colleagues to ensure appropriate working conditions." ?></p>
 	</div>
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

@@ -9,13 +9,12 @@
   
   
   <title>Contact</title>
-  <link rel="stylesheet" href="assets/css/icons/mobirise2.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
-   <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script>
 function myFunction() {
@@ -45,8 +44,8 @@ function myFunction() {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
-<section class="form5 cid-tn4X0jmbyb">
+<br><br><br>
+<section >
     
     
     <div class="container">
@@ -54,43 +53,44 @@ function myFunction() {
             
  
         <div class="row justify-content-center mt-4">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+            <div class="col-lg-8" data-form-type="formoid">
                 <form action="https://formsubmit.io/send/kamil.alderio@gmail.com" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-                    <div class="dragArea row">
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                    <div class="row">
+                        <div class="col-md  mb-3" data-for="name">
                             <input type="text" name="name" placeholder="Name &amp; Surname" data-form-field="name" class="form-control" >
                         </div>
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                        <div class="col-md  mb-3" data-for="email">
                             <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control">
                         </div>
                         
-                        <div class="col-12 form-group mb-3" data-for="textarea">
+                        <div class="col-12  mb-3" data-for="textarea">
                             <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control"></textarea>
                         </div>
-                        <div class="align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-4">Send message</button></div>
+                        <div class="bt align-center"><button type="submit" class="button display-4">Send message</button></div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
-
-<section class="contacts2 cid-tn4VmSFzFy " style="background-color: #DFCFBE">
+<br><br><br>
+<section style="background-color: #DFCFBE">
     
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(206, 191, 175);">
-    </div>
-    <div class="container">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+
+    <div class="container" >
+	<br><br>
+        <div>
+            <h3 class="align-center display-2">
                 <strong>Contacts</strong>
             </h3>
             
         </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-md-6">
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
+		<br>
+        <div class="row justify-content-center ">
+            <div class="col-md-6" style=" background-color: rgb(237, 241, 255,0.5); padding: 15px; border-radius: 25px">
+                <div class=" align-center">
+                    <div >
+                        <i class="material-icons" style="transform: scale(2);">call</i>
                     </div>
                     <div class="text">
                         <h6 class="display-5">
@@ -100,10 +100,10 @@ function myFunction() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
+            <div class="col-md-6" style=" background-color: rgb(237, 241, 255,0.5); padding: 15px; border-radius: 25px">
+                <div class=" align-center">
+                    <div>
+                        <i class="material-icons" style="transform: scale(2);">mail</i>
                     </div>
                     <div class="text">
                         <h6 class="display-5">
@@ -113,10 +113,10 @@ function myFunction() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-bulleted-list mobi-mbri"></span>
+            <div class="col-md-6" style=" background-color: rgb(237, 241, 255,0.5); padding: 15px; border-radius: 25px">
+                <div class="align-center">
+                    <div>
+                        <i class="material-icons" style="transform: scale(2);">apartment</i>
                     </div>
                     <div class="text">
                         <h6 class="display-5">
@@ -132,10 +132,10 @@ function myFunction() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-bulleted-list mobi-mbri"></span>
+            <div class="col-md-6" style=" background-color: rgb(237, 241, 255,0.5); padding: 15px; border-radius: 25px">
+                <div class=" align-center">
+                    <div>
+                        <i class="material-icons" style="transform: scale(2);">list</i>
                     </div>
                     <div class="text">
                         <h6 class="display-5">
@@ -151,25 +151,18 @@ function myFunction() {
                     </div>
                 </div>
             </div>
+			
         </div>
+		<br><br><br>
     </div>
 </section>
 
-<section class="footer7 cid-tn4Fk1NEQy">
-
-    
-
-    
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="display-7">
-                    © Copyright 2022 Grupa 2 - All Rights Reserved
-                </p>
-            </div>
-        </div>
-    </div>
+	<footer>
+		<div class="footer-frame">
+			<p class="Copyright" style="padding: 1rem">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
+		</div>
+	</footer>
+	
 
   
 </body>

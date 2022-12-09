@@ -37,14 +37,13 @@ if(isset($_POST['but_submit'])){
   
   
   <title>Login</title>
-  <link rel="stylesheet" href="assets/css/icons/mobirise2.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<script>
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -57,7 +56,6 @@ function myFunction() {
 </script>
   <style>
 
-/* Login */
 #div_login{
     border: 1px solid gray;
     border-radius: 3px;
@@ -113,11 +111,8 @@ function myFunction() {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-<section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
-</section>
-<section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
-
-    
+<br><br><br><br><br><br><br><br><br><br>
+<section class=" mbr-Fullscreen " >
 <div class="container align-center">
     <form method="post" action="">
         <div id="div_login">
@@ -135,20 +130,14 @@ function myFunction() {
     </form>
 </div> 
 </section>
-<section class="form5 cid-tn4X0jmbyb mbr-Fullscreen " >
-</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<section class="footer7 cid-tn4Fk1NEQy">
-    
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="display-7">
-                    © Copyright 2022 Grupa 2 - All Rights Reserved
-                </p>
-            </div>
-        </div>
-    </div>
+	<footer>
+		<div class="footer-frame">
+			<p class="Copyright" style="padding: 1rem">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
+		</div>
+	</footer>
+	
 
   
 </body>

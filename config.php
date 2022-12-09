@@ -6,9 +6,9 @@ session_start();
 //$dbname = "phplogin";
 
 $host = "sql7.freesqldatabase.com"; 
-$user = "sql7582386"; 
-$password = "jZgfl9KSsB"; 
-$dbname = "sql7582386";
+$user = "sql7583728"; 
+$password = "7r25LemLE5"; 
+$dbname = "sql7583728";
 
 $con = mysqli_connect($host, $user, $password,$dbname);
 

@@ -9,14 +9,15 @@
   
   
   <title>New Information</title>
-  <link rel="stylesheet" href="assets/css/icons/mobirise2.css">
+
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/news.css" type="text/css">
    <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<script>
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -47,7 +48,7 @@ function myFunction() {
   </a>
 </div>
 
-<section class="timeline1 cid-tn5bhT0QsT">
+<section class="timeline1 news">
     
 
     
@@ -160,21 +161,12 @@ function myFunction() {
     </div>
 </section>
 
-<section class="footer7 cid-tn4Fk1NEQy">
-
-    
-
-    
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="display-7">
-                    © Copyright 2022 Grupa 2 - All Rights Reserved
-                </p>
-            </div>
-        </div>
-    </div>
+	<footer>
+		<div class="footer-frame">
+			<p class="Copyright" style="padding: 1rem">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
+		</div>
+	</footer>
+	
 
   
 </body>

@@ -196,18 +196,6 @@ section .mbr-background-video-preview {
   transition: all 0.3s ease-in-out;
 }
 
-.btn-form {
-  margin: 0;
-}
-.btn-form:hover {
-  cursor: pointer;
-}
-
-nav .mbr-section-btn {
-  margin-left: 0rem;
-  margin-right: 0rem;
-}
-
 /*! Btn icon margin */
 .btn .mbr-iconfont,
 .btn.btn-sm .mbr-iconfont {

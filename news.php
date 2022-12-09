@@ -21,12 +21,10 @@ if(isset($_POST['but_logout'])){
   <link rel="shortcut icon" href="assets/images/company-1-121x121.png" type="image/x-icon">
   <meta name="description" content="Company">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/icons/mobirise2.css">
+  <link rel="stylesheet" href="assets/css/news.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
-
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
 
   <title>News</title>
  <style> 
@@ -49,7 +47,7 @@ include "assets/loged/stylehome.css"
     <i class="fa fa-bars"></i>
   </a>
 </div>
-<section class="timeline1 cid-tn5bhT0QsT">
+<section class="timeline1 news">
     
 
     
@@ -161,7 +159,7 @@ include "assets/loged/stylehome.css"
     </div>
 </section>
 	<footer>
-		<div class="footer-frame">
+		<div class="footer-frame" style="padding: 1rem">
 			<p class="Copyright">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
 		</div>
 	</footer>

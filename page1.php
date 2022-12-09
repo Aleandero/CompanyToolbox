@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/priceing.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 	<script>
 function myFunction() {
@@ -31,7 +32,7 @@ function myFunction() {
    <div class="topnav">
   <a href="index.php" class="active">Company Toolbox</a>
   <div id="myLinks">
-    <a href="Index.php">Main Page</a>
+    <a href="index.php">Main Page</a>
     <a href="page1.php">Priceing</a>
 	<a href="page2.php">News</a>
 	<a href="page3.php">Contact</a>
@@ -105,31 +106,31 @@ function myFunction() {
 <h1 align="center" style="text-shadow: 2px 2px gray;">Short Descripcion</h1>
 </div>
 <section>
-<div class="columns_left" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<div  style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray; height: 200px">
 <h1 align="center">Basic</h1>
 <p style="text-align: center; font-size: 16px;">The Basic package is the cheapest choice. To create a Basic page, we use html combined with CSS, which makes our pages look good and their appearance slowly gets old.</p>
 </div>
-<div class="columns_right" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<div  style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray; height: 200px">
 <h1 align="center">Basic +</h1>
 <p style="text-align: center; font-size: 16px;padding: 5px">The Basic + package includes everything in the Basic package with the addition of basic php. This allows you to extend the website with new functions, such as logging in through a database connection, etc.</p>
 </div>
 </section>
 <section>
-<div class="columns_left" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<div  style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray; height: 200px">
 <h1 align="center">Advenced</h1>
 <p style="text-align: center; font-size: 16px;padding: 5px">The Advanced package includes everything Basic + and the addition of extended functions in php and the ability to prepare basic scripts in Javascripts. This allows you to create a page that will be interactive. This means, for example, that employees will be able to write messages that will then be displayed on the website.</p>
 </div>
-<div class="columns_right" style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray;">
+<div  style="background-color:#98B4D4; color:white; box-shadow: 0px 0px 2px 2px gray; height: 200px">
 <h1 align="center">Premium</h1>
-<p style="text-align: center; font-size: 16px;padding: 5px">PThe Premium package is a package containing literally everything HTML+CSS, PHP, Javascripts and even website applications. By purchasing this package, the buyer will not feel disappointed. We will select our best employees to create a website in this package, and our best programmers will take care of the application.</p>
+<p style="text-align: center; font-size: 16px;padding: 5px">The Premium package is a package containing literally everything HTML+CSS, PHP, Javascripts and even website applications. By purchasing this package, the buyer will not feel disappointed. We will select our best employees to create a website in this package, and our best programmers will take care of the application.</p>
 </div>
 </section>
 
-
 	<footer>
-		<div class="footer-frame" >
+		<div class="footer-frame">
 			<p class="Copyright">© Copyright 2022 Grupa 2 - All Rights Reserved</p>
 		</div>
 	</footer>
+	
 </body>
 </html>
