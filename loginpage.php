@@ -58,39 +58,47 @@ function myFunction() {
 
 #div_login{
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 2px;
     width: 470px;
     height: 270px;
-    box-shadow: 0px 2px 2px 0px  gray;
+    box-shadow: 5px 5px  gray;
     margin: 0 auto;
+	
 }
 
 #div_login h1{
     margin-top: 0px;
     font-weight: normal;
     padding: 10px;
-    background-color: cornflowerblue;
+    background-color: #00A170;
     color: white;
     font-family: sans-serif;
+	text-shadow: 2px 2px gray;
 }
 
 #div_login div{
     clear: both;
     margin-top: 10px;
     padding: 5px;
+	
+	
 }
 
 #div_login .textbox{
     width: 96%;
     padding: 7px;
+	border-radius:10px;
+	box-shadow: 2px 2px 2px 2px gray;
 }
 
 #div_login input[type=submit]{
     padding: 7px;
     width: 100px;
-    background-color: lightseagreen;
+    background-color: #00A170;
     border: 0px;
     color: white;
+	border-radius: 10px;
+	text-shadow: 2px 2px gray;
 }
 </style>
   
